@@ -127,18 +127,11 @@ Here are some examples comparing the results from standard Classifier-Free Guida
 Our method, S²-Guidance, operates by injecting noise into intermediate feature maps of the diffusion model's U-Net and then using the model's own denoising capabilities to predict a "cleaner" version of those features. The difference between the original and the cleaner features serves as a guidance signal, steering the overall generation process towards more refined results. The diagram below illustrates the core mechanism.
 
 <p align="center">
-  <img src="assets/method_v2.jpg" alt="Method Overview Diagram" width="80%">
+  <img src="assets/method_v3.jpg" alt="Method Overview Diagram" width="80%">
 </p>
 
 ## 🙏 Acknowledgements
 This work is built upon many amazing open-source projects. We would like to thank the developers of [Diffusers](https://github.com/huggingface/diffusers), [PyTorch](https://pytorch.org/), and other related libraries for their contributions to the community.
 
 ## 📜 Citation
-If you find our work useful for your research, please consider citing our paper:
-```bibtex
-@article{chen2023stochastic,
-  title={Stochastic Self-Guidance for Training-Free Enhancement of Diffusion Models},
-  author={Chen, Chubin and Zhu, Jiashu and Feng, Xiaokun and Huang, Nisha and Wu, Meiqi and Mao, Fangyuan and Wu, Jiahong and Chu, Xiangxiang and Li, Xiu},
-  journal={arXiv preprint arXiv:2312.01323},
-  year={2023}
-}
+If you find our work useful for your research, please consider citing our paper.
