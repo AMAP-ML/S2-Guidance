@@ -175,7 +175,11 @@ Here are some examples comparing the results from standard Classifier-free Guida
 </table>
 
 ### Quantitative Results
+
+#### HPSV2.1 & T2I-ComBench
 <img src="assets/comparison.png" alt="Quantitative Results" width="100%">
+
+#### VBench
 <img src="assets/comparison2.png" alt="Quantitative Results2" width="100%">
 
 
