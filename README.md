@@ -24,8 +24,6 @@
   <sup>‡</sup>Project lead.
 </p>
 
-<!-- Teaser Image -->
-<img src="assets/teaser.jpg" alt="S²-Guidance Teaser Image" width="90%">
 
 </div>
 
@@ -41,6 +39,9 @@
   &nbsp;&nbsp;&nbsp;
 </p>
 
+
+<!-- Teaser Image -->
+<img src="assets/teaser.jpg" alt="S²-Guidance Teaser Image" width="90%">
 
 ## 🔥 Updates
 - **[2025/08]** Our paper is available on [arXiv](https://arxiv.org/abs/2312.01323) and the [project page](https://s2guidance.github.io/) is live!
