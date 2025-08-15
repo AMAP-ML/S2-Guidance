@@ -103,6 +103,8 @@ Here are some examples comparing the results from standard Classifier-free Guida
 
 ### Text-to-Video Generation
 
+
+
 **Prompt:** "A breathtaking close-up of a woman frozen in time as golden threads of light weave around her face, creating dynamic flowing patterns of energy amidst glowing particles."
 | CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
