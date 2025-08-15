@@ -42,14 +42,22 @@
 
 
 <!-- Teaser Image -->
-<img src="assets/teaser.jpg" alt="S²-Guidance Teaser Image" width="90%">
+<img src="assets/teaser.jpg" alt="S²-Guidance Teaser Image" width="100%">
 
 ## 🔥 Updates
 - **[2025/08]** Our paper is available on [arXiv](https://arxiv.org/abs/2312.01323) and the [project page](https://s2guidance.github.io/) is live!
-- **[Coming Soon]** Code and models will be released. Stay tuned!
+- **[Coming Soon]** Code will be released. 
 
-## 🎨 Showcase
-Here are some examples comparing the results from standard Classifier-Free Guidance (CFG) with our **S²-Guidance**. Our method consistently produces higher-fidelity and more coherent results.
+
+## 📣 Overview
+
+<p align="center">
+  <img src="assets/method_v3.jpg" alt="Method Overview Diagram" width="80%">
+</p>
+
+We propose **S²-Guidance**, a novel method that leverages stochastic block-dropping during the forward process to construct sub-networks, effectively guiding the model away from potential low-quality predictions and toward high-quality outputs. Extensive qualitative and quantitative experiments on text-to-image and text-to-video generation tasks demonstrate that **S²-Guidance** delivers superior performance, consistently surpassing CFG and other advanced guidance strategies.
+
+Here are some examples comparing the results from standard Classifier-free Guidance (CFG) with our **S²-Guidance**. Our method consistently produces higher-fidelity and more coherent results.
 
 ### Text-to-Image Generation
 
@@ -122,15 +130,8 @@ Here are some examples comparing the results from standard Classifier-Free Guida
 | <video src="assets/baseline_video4.mp4" autoplay loop muted playsinline alt="CFG Video 4"></video> | <video src="assets/ours_video4.mp4" autoplay loop muted playsinline alt="Ours Video 4"></video> |
 
 
-## 📖 Abstract
-> Classifier-free Guidance (CFG) is a widely used technique in modern diffusion models for enhancing sample quality and prompt adherence. However, through an empirical analysis on Gaussian mixture modeling with a closed-form solution, we observe a discrepancy between the suboptimal results produced by CFG and the ground truth. The model's excessive reliance on these suboptimal predictions often leads to semantic incoherence and low-quality outputs. To address this issue, we first empirically demonstrate that the model's suboptimal predictions can be effectively refined using sub-networks of the model itself. Building on this insight, we propose **S²-Guidance**, a novel method that leverages stochastic block-dropping during the forward process to construct sub-networks, effectively guiding the model away from potential low-quality predictions and toward high-quality outputs. Extensive qualitative and quantitative experiments on text-to-image and text-to-video generation tasks demonstrate that **S²-Guidance** delivers superior performance, consistently surpassing CFG and other advanced guidance strategies.
 
-## ⚙️ Method
-Our method, S²-Guidance, operates by injecting noise into intermediate feature maps of the diffusion model's U-Net and then using the model's own denoising capabilities to predict a "cleaner" version of those features. The difference between the original and the cleaner features serves as a guidance signal, steering the overall generation process towards more refined results. The diagram below illustrates the core mechanism.
 
-<p align="center">
-  <img src="assets/method_v3.jpg" alt="Method Overview Diagram" width="80%">
-</p>
 
 ## 🙏 Acknowledgements
 This work is built upon many amazing open-source projects. We would like to thank the developers of [Diffusers](https://github.com/huggingface/diffusers), [PyTorch](https://pytorch.org/), and other related libraries for their contributions to the community.
