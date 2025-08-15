@@ -27,17 +27,18 @@
 
 </div>
 
-<!-- 徽章 (Badges) -->
+<!-- 徽章 (Badges) 部分 (已修正，移除了下划线) -->
 <p align="center">
-  <a href="https://arxiv.org/abs/2312.01323">
+  <a href="https://arxiv.org/abs/2312.01323" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white" alt="Paper"/>
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://s2guidance.github.io/">
+  <a href="https://s2guidance.github.io/" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Project-Page-blue?logo=googlechrome&logoColor=white" alt="Project Page"/>
   </a>
   &nbsp;&nbsp;&nbsp;
 </p>
+
 
 
 <!-- Teaser Image -->
