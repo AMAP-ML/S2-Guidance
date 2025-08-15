@@ -4,7 +4,7 @@
 
 <p align="center">
   <!-- 作者行 (已修正) -->
-  Chubin Chen<sup>1,2,*</sup>,
+  Chubin Chen<sup>1,2</sup>,
   Jiashu Zhu<sup>2</sup>,
   Xiaokun Feng<sup>2,3</sup>,
   Nisha Huang<sup>1</sup>
@@ -19,9 +19,6 @@
   <sup>1</sup>Tsinghua University &nbsp;&nbsp;&nbsp;
   <sup>2</sup>AMAP, Alibaba Group &nbsp;&nbsp;&nbsp;
   <sup>3</sup>CASIA
-  <br><br>
-  <!-- 备注行 (新增) -->
-  <sup>*</sup>Work done during the internship at AMAP, Alibaba Group.
   <br>
   <sup>†</sup>Corresponding author. &nbsp;&nbsp;&nbsp;
   <sup>‡</sup>Project lead.
