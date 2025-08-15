@@ -174,6 +174,9 @@ Here are some examples comparing the results from standard Classifier-free Guida
   </tr>
 </table>
 
+### User Study
+<img src="assets/userstudy.jpg" alt="Quantitative Results" width="100%">
+
 ### Quantitative Results
 
 #### HPSV2.1 & T2I-ComBench
