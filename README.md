@@ -26,7 +26,7 @@
 
 
 
-<a><img src="assets/teaser.gif" alt="S²-Guidance Teaser Image" width="90%">
+<a><img src="assets/teaser.pdf" alt="S²-Guidance Teaser Image" width="90%">
 
 </div>
 
@@ -54,10 +54,10 @@
 ##  Showcase
 Here are some examples comparing the results from standard Classifier-Free Guidance (CFG) with our **S²-Guidance**. Our method consistently produces higher-fidelity and more coherent results for both images and videos.
 
-**Prompt:** "A floating castle above the clouds, with 'S² Guidance Is All You Need' swirling in the mist."
+**Prompt:** "A floating castle above the clouds, with 'S2 Guidance Is All You Need' swirling in the mist."
 | CFG (Baseline) | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
-| <img src="assets/baseline2.jpg" alt="CFG result for floating castle"> | <img src="assets/ours2.jpg" alt="Our result for floating castle"> |
+| <img src="assets/baseline2.jpg" alt="CFG"> | <img src="assets/ours2.jpg" alt="Ours"> |
 
 ---
 
