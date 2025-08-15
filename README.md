@@ -26,7 +26,7 @@
 
 
 
-<a><img src="assets/teaser.pdf" alt="S²-Guidance Teaser Image" width="90%">
+<a><img src="assets/teaser.jpg" alt="S²-Guidance Teaser Image" width="90%">
 
 </div>
 
@@ -35,7 +35,7 @@
 <a href='https://arxiv.org/abs/2503.18942'><img src='https://img.shields.io/badge/arXiv-2503.18942-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;
 <a href='https://liuff19.github.io/Video-T1/'><img src='https://s2guidance.github.io/'></a> &nbsp;&nbsp;&nbsp;&nbsp;
 <a href='https://mp.weixin.qq.com/s/HtJHXGgTAhi-uBWSsgqOKQ'><img src='https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D-green'></a> &nbsp;&nbsp;&nbsp;&nbsp;
-![Teaser Visualization](assets/teaser.png)
+![Teaser Visualization](assets/teaser.jpg)
 
 
 
