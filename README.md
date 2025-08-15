@@ -27,25 +27,24 @@
   <sup>‡</sup>Project lead.
 </p>
 
-<!-- 核心修正：移除了错误的<a>标签，确保<img>标签直接在<div>内部 -->
-<img src="assets/teaser.jpg" alt="S²-Guidance Teaser Image" width="90%">
+
 
 </div> <!-- 核心修正：</div> 标签现在正确地闭合了整个居中区域 -->
 
-<!-- 徽章 (Badges) 部分，使用新的居中段落，结构更清晰 -->
+<!-- 徽章 (Badges) 部分，使用新的居中和扁平化风格 -->
 <p align="center">
-    <a href="https://arxiv.org/abs/2312.01323" target="_blank">
-        <img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg?style=for-the-badge&logo=arxiv">
-    </a>
-    &nbsp;
-    <a href="https://chubin-chen.github.io/S2-Guidance/" target="_blank"> <!-- ❗️请确保这是您正确的项目主页链接 -->
-        <img alt="Project Page" src="https://img.shields.io/badge/Project-Page-blue.svg?style=for-the-badge&logo=googlechrome">
-    </a>
-    &nbsp;
-    <a href="https://github.com/chubin-chen/S2-Guidance" target="_blank"> <!-- ❗️请替换为您的仓库链接 -->
-        <img alt="GitHub" src="https://img.shields.io/badge/Code-GitHub-black?style=for-the-badge&logo=github">
-    </a>
+  <a href="https://arxiv.org/abs/2312.01323">
+    <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white" alt="Paper"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://s2guidance.github.io/">
+    <img src="https://img.shields.io/badge/Project-Page-blue?logo=googlechrome&logoColor=white" alt="Project Page"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
 </p>
+
+<!-- 核心修正：移除了错误的<a>标签，确保<img>标签直接在<div>内部 -->
+<img src="assets/teaser.jpg" alt="S²-Guidance Teaser Image" width="90%">
 
 
 
