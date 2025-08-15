@@ -1,5 +1,3 @@
-<div align="center">
-
 # S²-Guidance: Stochastic Self-Guidance for Training-Free Enhancement of Diffusion Models
 
 <p align="center">
@@ -52,11 +50,13 @@
 ## 📣 Overview
 
 <p align="center">
-  <img src="assets/method_v3.jpg" alt="Method Overview Diagram" width="80%">
+  <img src="assets/method_v3.jpg" alt="Method Overview Diagram" width="100%">
 </p>
 
 We propose **S²-Guidance**, a novel method that leverages stochastic block-dropping during the forward process to construct sub-networks, effectively guiding the model away from potential low-quality predictions and toward high-quality outputs. Extensive qualitative and quantitative experiments on text-to-image and text-to-video generation tasks demonstrate that **S²-Guidance** delivers superior performance, consistently surpassing CFG and other advanced guidance strategies.
 
+
+## 🎉 Results
 Here are some examples comparing the results from standard Classifier-free Guidance (CFG) with our **S²-Guidance**. Our method consistently produces higher-fidelity and more coherent results.
 
 ### Text-to-Image Generation
@@ -103,36 +103,80 @@ Here are some examples comparing the results from standard Classifier-free Guida
 
 ### Text-to-Video Generation
 
-
-
 **Prompt:** "A breathtaking close-up of a woman frozen in time as golden threads of light weave around her face, creating dynamic flowing patterns of energy amidst glowing particles."
-| CFG | Ours (S²-Guidance) |
-|:--------------:|:------------------:|
-| <video src="assets/baseline_video1.mp4" autoplay loop muted playsinline alt="CFG Video 1"></video> | <video src="assets/ours_video1.mp4" autoplay loop muted playsinline alt="Ours Video 1"></video> |
+<table border="0" style="width: 100%; text-align: center; margin-top: 20px;">
+  <tr>
+    <td style="text-align: center;">
+      <b>CFG</b>
+      <br>
+      <video src="https://github.com/user-attachments/assets/ca181aed-1889-4b90-a885-ef429dc861e0" width="100%" controls autoplay loop muted playsinline alt="CFG Video 4"></video>
+    </td>
+    <td style="text-align: center;">
+      <b>Ours (S²-Guidance)</b>
+      <br>
+      <video src="https://github.com/user-attachments/assets/b14c92be-860a-4596-91f3-ed8ce4e0e9cd" width="100%" controls autoplay loop muted playsinline alt="Ours Video 4"></video>
+    </td>
+  </tr>
+</table>
+
 
 ---
 
 **Prompt:** "An astronaut flying in space, zoom out."
-| CFG | Ours (S²-Guidance) |
-|:--------------:|:------------------:|
-| <video src="assets/baseline_video2.mp4" autoplay loop muted playsinline alt="CFG Video 2"></video> | <video src="assets/ours_video2.mp4" autoplay loop muted playsinline alt="Ours Video 2"></video> |
+<table border="0" style="width: 100%; text-align: center; margin-top: 20px;">
+  <tr>
+    <td style="text-align: center;">
+      <b>CFG</b>
+      <br>
+      <video src="https://github.com/user-attachments/assets/255444a3-3130-4747-913c-fc9ad3e11ae8" width="100%" controls autoplay loop muted playsinline alt="CFG Video 3"></video>
+    </td>
+    <td style="text-align: center;">
+      <b>Ours (S²-Guidance)</b>
+      <br>
+      <video src="https://github.com/user-attachments/assets/067fba6c-c244-4f6a-a55f-5ba785ad6264" width="100%" controls autoplay loop muted playsinline alt="Ours Video 3"></video>
+    </td>
+  </tr>
+</table>
 
 ---
 
 **Prompt:** "A car accelerating to gain speed."
-| CFG | Ours (S²-Guidance) |
-|:--------------:|:------------------:|
-| <video src="assets/baseline_video3.mp4" autoplay loop muted playsinline alt="CFG Video 3"></video> | <video src="assets/ours_video3.mp4" autoplay loop muted playsinline alt="Ours Video 3"></video> |
+<table border="0" style="width: 100%; text-align: center; margin-top: 20px;">
+  <tr>
+    <td style="text-align: center;">
+      <b>CFG</b>
+      <br>
+      <video src="https://github.com/user-attachments/assets/8b1903e6-d45c-4411-81f7-4d93a008c427" width="100%" controls autoplay loop muted playsinline alt="CFG Video 2"></video>
+    </td>
+    <td style="text-align: center;">
+      <b>Ours (S²-Guidance)</b>
+      <br>
+      <video src="https://github.com/user-attachments/assets/0886e3a1-e60e-49b3-9b7a-8b300820892d" width="100%" controls autoplay loop muted playsinline alt="Ours Video 2"></video>
+    </td>
+  </tr>
+</table>
 
 ---
 
 **Prompt:** "A parking meter and a truck."
-| CFG | Ours (S²-Guidance) |
-|:--------------:|:------------------:|
-| <video src="assets/baseline_video4.mp4" autoplay loop muted playsinline alt="CFG Video 4"></video> | <video src="assets/ours_video4.mp4" autoplay loop muted playsinline alt="Ours Video 4"></video> |
+<table border="0" style="width: 100%; text-align: center; margin-top: 20px;">
+  <tr>
+    <td style="text-align: center;">
+      <b>CFG</b>
+      <br>
+      <video src="https://github.com/user-attachments/assets/8a6faf1a-5641-4467-89b3-ac5c7b6e716d" width="100%" controls autoplay loop muted playsinline alt="CFG Video 1"></video>
+    </td>
+    <td style="text-align: center;">
+      <b>Ours (S²-Guidance)</b>
+      <br>
+      <video src="https://github.com/user-attachments/assets/73e453a1-7470-4d2a-8d10-fab8b5a3a0ba" width="100%" controls autoplay loop muted playsinline alt="Ours Video 1"></video>
+    </td>
+  </tr>
+</table>
 
-
-
+### Quantitative Results
+<img src="assets/comparison.png" alt="Quantitative Results" width="100%">
+<img src="assets/comparison2.png" alt="Quantitative Results2" width="100%">
 
 
 ## 🙏 Acknowledgements
