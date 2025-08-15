@@ -122,7 +122,7 @@ Here are some examples comparing the results from standard Classifier-free Guida
 
 ---
 
-**Prompt:** "An astronaut flying in space, zoom out."
+**Prompt:** "An astronaut flying in space."
 <table border="0" style="width: 100%; text-align: center; margin-top: 20px;">
   <tr>
     <td style="text-align: center;">
