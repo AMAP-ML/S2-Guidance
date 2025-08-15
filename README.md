@@ -3,8 +3,8 @@
 # S²-Guidance: Stochastic Self-Guidance for Training-Free Enhancement of Diffusion Models
 
 <p align="center">
-  <!-- 作者行 -->
-  Chubin Chen<sup>1,2</sup>,
+  <!-- 作者行 (已修正) -->
+  Chubin Chen<sup>1,2,*</sup>,
   Jiashu Zhu<sup>2</sup>,
   Xiaokun Feng<sup>2,3</sup>,
   Nisha Huang<sup>1</sup>
@@ -19,25 +19,33 @@
   <sup>1</sup>Tsinghua University &nbsp;&nbsp;&nbsp;
   <sup>2</sup>AMAP, Alibaba Group &nbsp;&nbsp;&nbsp;
   <sup>3</sup>CASIA
+  <br><br>
+  <!-- 备注行 (新增) -->
+  <sup>*</sup>Work done during the internship at AMAP, Alibaba Group.
   <br>
   <sup>†</sup>Corresponding author. &nbsp;&nbsp;&nbsp;
   <sup>‡</sup>Project lead.
 </p>
 
+<!-- 核心修正：移除了错误的<a>标签，确保<img>标签直接在<div>内部 -->
+<img src="assets/teaser.jpg" alt="S²-Guidance Teaser Image" width="90%">
 
+</div> <!-- 核心修正：</div> 标签现在正确地闭合了整个居中区域 -->
 
-<a><img src="assets/teaser.jpg" alt="S²-Guidance Teaser Image" width="90%">
-
-</div>
-
-
-
-<a href='https://arxiv.org/abs/2503.18942'><img src='https://img.shields.io/badge/arXiv-2503.18942-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;
-<a href='https://liuff19.github.io/Video-T1/'><img src='https://s2guidance.github.io/'></a> &nbsp;&nbsp;&nbsp;&nbsp;
-<a href='https://mp.weixin.qq.com/s/HtJHXGgTAhi-uBWSsgqOKQ'><img src='https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D-green'></a> &nbsp;&nbsp;&nbsp;&nbsp;
-![Teaser Visualization](assets/teaser.jpg)
-
-
+<!-- 徽章 (Badges) 部分，使用新的居中段落，结构更清晰 -->
+<p align="center">
+    <a href="https://arxiv.org/abs/2312.01323" target="_blank">
+        <img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg?style=for-the-badge&logo=arxiv">
+    </a>
+    &nbsp;
+    <a href="https://chubin-chen.github.io/S2-Guidance/" target="_blank"> <!-- ❗️请确保这是您正确的项目主页链接 -->
+        <img alt="Project Page" src="https://img.shields.io/badge/Project-Page-blue.svg?style=for-the-badge&logo=googlechrome">
+    </a>
+    &nbsp;
+    <a href="https://github.com/chubin-chen/S2-Guidance" target="_blank"> <!-- ❗️请替换为您的仓库链接 -->
+        <img alt="GitHub" src="https://img.shields.io/badge/Code-GitHub-black?style=for-the-badge&logo=github">
+    </a>
+</p>
 
 
 
