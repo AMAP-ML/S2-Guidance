@@ -52,70 +52,70 @@ Here are some examples comparing the results from standard Classifier-Free Guida
 ### Text-to-Image Generation
 
 **Prompt:** "The bold dramatic strokes of the painter's brush created a stunning abstract masterpiece a work of emotional depth and intensity."
-| CFG (Baseline) | Ours (S²-Guidance) |
+| CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
 | <img src="assets/baseline1.jpg" alt="CFG Image 1"> | <img src="assets/ours1.jpg" alt="Ours Image 1"> |
 
 ---
 
 **Prompt:** "A floating castle above the clouds, with 'S² Guidance Is All You Need' swirling in the mist."
-| CFG (Baseline) | Ours (S²-Guidance) |
+| CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
 | <img src="assets/baseline2.jpg" alt="CFG Image 2"> | <img src="assets/ours2.jpg" alt="Ours Image 2"> |
 
 ---
 
 **Prompt:** "A woman is holding a bouquet of balloons and celebrating a birthday."
-| CFG (Baseline) | Ours (S²-Guidance) |
+| CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
 | <img src="assets/baseline3.jpg" alt="CFG Image 3"> | <img src="assets/ours3.jpg" alt="Ours Image 3"> |
 
 ---
 
 **Prompt:** "A red book and an ivory sheep."
-| CFG (Baseline) | Ours (S²-Guidance) |
+| CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
 | <img src="assets/baseline4.jpg" alt="CFG Image 4"> | <img src="assets/ours4.jpg" alt="Ours Image 4"> |
 
 ---
 
 **Prompt:** "A cat sitting besides a rocket on a planet with a lot of cactuses."
-| CFG (Baseline) | Ours (S²-Guidance) |
+| CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
 | <img src="assets/baseline5.jpg" alt="CFG Image 5"> | <img src="assets/ours5.jpg" alt="Ours Image 5"> |
 
 ---
 
 **Prompt:** "A woman sitting under an umbrella in the middle of a restaurant."
-| CFG (Baseline) | Ours (S²-Guidance) |
+| CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
 | <img src="assets/baseline6.jpg" alt="CFG Image 6"> | <img src="assets/ours6.jpg" alt="Ours Image 6"> |
 
 ### Text-to-Video Generation
 
 **Prompt:** "A breathtaking close-up of a woman frozen in time as golden threads of light weave around her face, creating dynamic flowing patterns of energy amidst glowing particles."
-| CFG (Baseline) | Ours (S²-Guidance) |
+| CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
 | <video src="assets/baseline_video1.mp4" autoplay loop muted playsinline alt="CFG Video 1"></video> | <video src="assets/ours_video1.mp4" autoplay loop muted playsinline alt="Ours Video 1"></video> |
 
 ---
 
 **Prompt:** "An astronaut flying in space, zoom out."
-| CFG (Baseline) | Ours (S²-Guidance) |
+| CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
 | <video src="assets/baseline_video2.mp4" autoplay loop muted playsinline alt="CFG Video 2"></video> | <video src="assets/ours_video2.mp4" autoplay loop muted playsinline alt="Ours Video 2"></video> |
 
 ---
 
 **Prompt:** "A car accelerating to gain speed."
-| CFG (Baseline) | Ours (S²-Guidance) |
+| CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
 | <video src="assets/baseline_video3.mp4" autoplay loop muted playsinline alt="CFG Video 3"></video> | <video src="assets/ours_video3.mp4" autoplay loop muted playsinline alt="Ours Video 3"></video> |
 
 ---
 
 **Prompt:** "A parking meter and a truck."
-| CFG (Baseline) | Ours (S²-Guidance) |
+| CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
 | <video src="assets/baseline_video4.mp4" autoplay loop muted playsinline alt="CFG Video 4"></video> | <video src="assets/ours_video4.mp4" autoplay loop muted playsinline alt="Ours Video 4"></video> |
 
