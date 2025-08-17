@@ -43,7 +43,7 @@
 <img src="assets/teaser.jpg" alt="S²-Guidance Teaser Image" width="100%">
 
 ## 🔥 Updates
-- **[2025/08]** Our paper is available on [arXiv](https://arxiv.org/abs/2312.01323) and the [project page](https://s2guidance.github.io/) is live!
+- **[2025/08]** Our paper is available on [arXiv](https://s2guidance.github.io/) and the [project page](https://s2guidance.github.io/) is live!
 - **[Coming Soon]** Code will be released. 
 
 
@@ -68,7 +68,7 @@ Here are some examples comparing the results from standard Classifier-free Guida
 
 ---
 
-**Prompt:** "A floating castle above the clouds, with 'S² Guidance Is All You Need' swirling in the mist."
+**Prompt:** "A floating castle above the clouds, with 'S2 Guidance Is All You Need' swirling in the mist."
 | CFG | Ours (S²-Guidance) |
 |:--------------:|:------------------:|
 | <img src="assets/baseline2.jpg" alt="CFG Image 2"> | <img src="assets/ours2.jpg" alt="Ours Image 2"> |
