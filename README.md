@@ -43,7 +43,7 @@
 <img src="assets/teaser.jpg" alt="S²-Guidance Teaser Image" width="100%">
 
 ## 🔥 Updates
-- **[2025/08]** Our paper is available on [arXiv](https://s2guidance.github.io/) and the [project page](https://s2guidance.github.io/) is live!
+- **[2025/08]** Our paper is available on [arXiv](http://arxiv.org/abs/2508.12880) and the [project page](https://s2guidance.github.io/) is live!
 - **[Coming Soon]** Code will be released. 
 
 
