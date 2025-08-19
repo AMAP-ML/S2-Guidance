@@ -27,7 +27,7 @@
 
 <!-- 徽章 (Badges) 部分 (已修正，移除了下划线) -->
 <p align="center">
-  <a href="https://arxiv.org/abs/2312.01323" style="text-decoration: none;">
+  <a href="http://arxiv.org/abs/2508.12880" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white" alt="Paper"/>
   </a>
   &nbsp;&nbsp;&nbsp;
@@ -158,18 +158,18 @@ Here are some examples comparing the results from standard Classifier-free Guida
 
 ---
 
-**Prompt:** "A parking meter and a truck."
+**Prompt:** "A close-up of a beautiful woman's face with colored powder exploding around her, creating an abstract splash of vibrant hues."
 <table border="0" style="width: 100%; text-align: center; margin-top: 20px;">
   <tr>
     <td style="text-align: center;">
       <b>CFG</b>
       <br>
-      <video src="https://github.com/user-attachments/assets/8a6faf1a-5641-4467-89b3-ac5c7b6e716d" width="100%" controls autoplay loop muted playsinline alt="CFG Video 1"></video>
+      <video src="https://github.com/user-attachments/assets/d8581bb7-a224-4dcf-a71d-3e3afd6aa8e3" width="100%" controls autoplay loop muted playsinline alt="CFG Video 1"></video>
     </td>
     <td style="text-align: center;">
       <b>Ours (S²-Guidance)</b>
       <br>
-      <video src="https://github.com/user-attachments/assets/73e453a1-7470-4d2a-8d10-fab8b5a3a0ba" width="100%" controls autoplay loop muted playsinline alt="Ours Video 1"></video>
+      <video src="https://github.com/user-attachments/assets/cf891170-6c03-486c-86db-d171707d5fe8" width="100%" controls autoplay loop muted playsinline alt="Ours Video 1"></video>
     </td>
   </tr>
 </table>
