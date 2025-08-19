@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- 作者行 -->
-  Chubin Chen<sup>1,2</sup>,
+  <a href="mailto:trubeeen@gmail.com" style="color: inherit; text-decoration: none;">Chubin Chen</a><sup>1,2</sup>,
   Jiashu Zhu<sup>2</sup>,
   Xiaokun Feng<sup>2,3</sup>,
   Nisha Huang<sup>1</sup>
