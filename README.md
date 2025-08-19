@@ -190,4 +190,15 @@ Here are some examples comparing the results from standard Classifier-free Guida
 This work is built upon many amazing open-source projects. We would like to thank the developers of [Diffusers](https://github.com/huggingface/diffusers), [PyTorch](https://pytorch.org/), and other related libraries for their contributions to the community.
 
 ## 📜 Citation
-If you find our work useful for your research, please consider citing our paper.
+If you find our work useful for your research, please feel free to leave a star⭐️⭐️⭐️ and cite our paper:
+```bibtex
+@misc{chen2025s2guidancestochasticselfguidance,
+      title={S^2-Guidance: Stochastic Self Guidance for Training-Free Enhancement of Diffusion Models}, 
+      author={Chubin Chen and Jiashu Zhu and Xiaokun Feng and Nisha Huang and Meiqi Wu and Fangyuan Mao and Jiahong Wu and Xiangxiang Chu and Xiu Li},
+      year={2025},
+      eprint={2508.12880},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.12880}, 
+}
+```
