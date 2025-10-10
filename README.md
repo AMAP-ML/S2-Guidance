@@ -192,13 +192,10 @@ This work is built upon many amazing open-source projects. We would like to than
 ## 📜 Citation
 If you find our work useful for your research, please feel free to leave a star⭐️⭐️⭐️ and cite our paper:
 ```bibtex
-@misc{chen2025s2guidancestochasticselfguidance,
-      title={S$^2$-Guidance: Stochastic Self Guidance for Training-Free Enhancement of Diffusion Models}, 
-      author={Chubin Chen and Jiashu Zhu and Xiaokun Feng and Nisha Huang and Meiqi Wu and Fangyuan Mao and Jiahong Wu and Xiangxiang Chu and Xiu Li},
-      year={2025},
-      eprint={2508.12880},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2508.12880}, 
+@article{chen2025s,
+  title={S $\^{} 2$-Guidance: Stochastic Self Guidance for Training-Free Enhancement of Diffusion Models},
+  author={Chen, Chubin and Zhu, Jiashu and Feng, Xiaokun and Huang, Nisha and Wu, Meiqi and Mao, Fangyuan and Wu, Jiahong and Chu, Xiangxiang and Li, Xiu},
+  journal={arXiv preprint arXiv:2508.12880},
+  year={2025}
 }
 ```
