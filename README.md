@@ -1,4 +1,4 @@
-# S²-Guidance: Stochastic Self-Guidance for Training-Free Enhancement of Diffusion Models
+# [ICLR2026] S²-Guidance: Stochastic Self-Guidance for Training-Free Enhancement of Diffusion Models
 
 <p align="center">
   <!-- 作者行 -->
