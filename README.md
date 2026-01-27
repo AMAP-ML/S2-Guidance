@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- 作者行 -->
-  <a href="https://github.com/trubeen" style="color: inherit; text-decoration: none;">Chubin Chen</a><sup>1,2</sup>
+  <a href="https://github.com/trubeen" style="color: inherit; text-decoration: none;">Chubin Chen</a><sup>1</sup>,
   Jiashu Zhu<sup>2</sup>,
   Xiaokun Feng<sup>2,3</sup>,
   Nisha Huang<sup>1</sup>
@@ -44,7 +44,8 @@
 
 ## 🔥 Updates
 - **[2025/08]** Our paper is available on [arXiv](http://arxiv.org/abs/2508.12880) and the [project page](https://s2guidance.github.io/) is live!
-- **[Coming Soon]** Code will be released. 
+- **[2026/01]**: 🎉🎉🎉 Our paper is accepted by **ICLR 2026**!
+- **[Coming Soon]** Code will be released in few days!
 
 
 ## 📣 Overview
