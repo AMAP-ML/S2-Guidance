@@ -193,9 +193,10 @@ This work is built upon many amazing open-source projects. We would like to than
 ## 📜 Citation
 If you find our work useful for your research, please feel free to leave a star⭐️⭐️⭐️ and cite our paper:
 ```bibtex
-@inproceedings{chenstochastic,
+@inproceedings{chen2026stochastic,
   title={Stochastic Self-Guidance for Training-Free Enhancement of Diffusion Models},
   author={Chen, Chubin and Zhu, Jiashu and Feng, Xiaokun and Huang, Nisha and Zhu, Chen and Wu, Meiqi and Mao, Fangyuan and Wu, Jiahong and Chu, Xiangxiang and Li, Xiu},
-  booktitle={The Fourteenth International Conference on Learning Representations}
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026}
 }
 ```
